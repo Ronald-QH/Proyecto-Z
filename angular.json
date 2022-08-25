@@ -24,11 +24,10 @@
             ],
             "styles": [
               "src/styles.css"
-              "src/assets/css/bootstrap.min.css"
+     
             ],
             "scripts": [
-              "src/assets/js/popper.min.js",
-              "src/assets/js/bootstrap.bundle.min.js"
+          
             ]
 
           },
@@ -102,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e9af8de4-64e2-4e90-919a-dafd809c9d17"
   }
 }

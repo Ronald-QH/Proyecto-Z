@@ -4,16 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { AppRoutingModule } from './app-routing.module';
-import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button';
-import { MatInputModule } from '@angular/material/input';
-import { ReactiveFormsModule } from '@angular/forms';
-import { LoginComponent } from './login/login.component'
-import { MatIconModule } from '@angular/material/icon';
-
 
 
 
@@ -21,18 +11,10 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent,
-    LoginComponent
+    HeaderComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatCardModule,
-    MatInputModule,
-    ReactiveFormsModule,
-    MatIconModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,36 @@
+.main-content{
+
+    margin: 0 3% 0 3%;
+    
+
+}
+.categorias{
+
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    max-width: 250px;
+    max-height: 330px;
+    font-size: 85%;
+
+    margin: 1%;
+}
+
+
+.title-categ{
+    margin-left: 5%;
+}
+
+
+@media screen and (max-width: 1180px){
+
+    .title-categ{
+        margin-left: 12%;
+    }
+    
+
+}

@@ -1,20 +1,41 @@
-<div class="container">
-
-
-
-<div class="container">
-    
+<div class="container-fluid">
+ 
 <header>
-
-
     <app-header></app-header>
-
-
 </header>
 
 
+<main>
 
-<footer>AQUÍ VA EL COMOPONETE FOOTER</footer>
+    
+<app-main-prin>
+
+</app-main-prin>
+
+    <p class="title-categ display-6 p-5">Todas las categorías</p>
+
+
+
+    <div class="categorias-cont position-relative w-100 px-5 d-flex container-fluid">
+    <app-card  *ngFor = "let category of this.categories"
+      [title] = "category.title" 
+      [img] = "category.img" 
+      [description] = "category.description" 
+      [link] = "category.link" >
+    </app-card>
+    </div>
+
+
+
+        <app-main>
+
+        </app-main>
+</main>
+
+
+<footer>
+    <app-footer> </app-footer>
+</footer>
 
 
 </div>
